@@ -3,10 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Rizky</title>
+    <title>Mini Coding Project | Muhammad Rizky</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h3>Test First Push</h3>
-    <h4>Halaman Utama</h4>
+	<input type="hidden" id="mode">
+    <table cellpadding="5" cellspacing="0" width="450" align="center">
+    	<tr>
+    		<td>
+    			<div id="judul"></div>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td>
+    			<div id="labelA"></div>
+    			<textarea id="a" cols="40" rows="5" onkeypress='return event.charCode >= 48 && event.charCode <= 57'></textarea>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td>
+    			<button id="konversi" onclick="konversi()">Konversi</button>
+    			<button id="reset" onclick="reset()">Reset</button>
+    			<button id="reverse" onclick="reverse()">Reverse</button>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td>
+    			<div id="labelB"></div>
+    			<textarea id="b" cols="40" rows="5" disabled="disabled"></textarea>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td>
+    			Cara Kalkulasi :<br/>
+    			<textarea id="hasil" cols="40" rows="5" disabled="disabled"></textarea>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td>
+    			<div id="rubah" onclick="rubah()"></div>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td>
+    			<div id="keterangan"></div>
+    		</td>
+    	</tr>
+    </table>
+    <footer>
+    	MINI CODING PROJECT RevoU | Muhammad Rizky (muhammad.150795@gmail.com) - 0878 8286 7890
+    </footer>
 </body>
+<script src="js/script.js"></script>
 </html>

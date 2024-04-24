@@ -1,1 +1,39 @@
-/* */
+body{
+	font-family: Arial;
+}
+table{
+	background-color: #f6f6f6;
+}
+textarea{
+	background-color: #F0F8FF;
+}
+#judul{
+	text-align: justify;
+}
+#konversi{
+	background-color: #7FFFD4;
+	cursor: pointer;
+}
+#reset{
+	background-color: #DC143C;
+	cursor: pointer;
+	color: white;
+}
+#reverse{
+	background-color: #FF1493;
+	cursor: pointer;
+	color: white;
+}
+#rubah{
+	color: blue;
+	cursor: pointer;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #008080;
+   color: white;
+   text-align: center;
+}
